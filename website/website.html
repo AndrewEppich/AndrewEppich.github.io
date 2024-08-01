@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="website.css">
+    <title>Andrew Eppich</title>
+    <script src="https://kit.fontawesome.com/a4179d6198.js" crossorigin="anonymous"></script>
+    <script src="website.js"></script>
+    <div id="root"></div>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="andrew">Andrew Eppich</li>
+                <li><a href="#about" id="aboutNavLink">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-content">
+        <div class="content">
+            <p>Hello,</p>
+            <p>My Name Is Andrew Eppich</p>
+            <p>I Am A Software Engineering Student</p>
+            <div class="bubble-container">
+                <button id="aboutButton" class="bubble">About</button>
+                <a href="https://www.linkedin.com/in/andrew-eppich-517229292" class="bubble social" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AndrewEppich" class="bubble social" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/eppich.19" class="bubble social" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:Andrew37745@gmail.com" class="bubble social" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="circle-image">
+            <img src="IMG_1947.jpeg" alt="Circular Image">
+        </div>
+    </div>
+
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Name</h2>
+            <p>Andrew Eppich</p>
+            <h2>Age</h2>
+            <p>20 Years Old</p>
+            <h2>Education</h2>
+            <p>Chapman University - BS Software Engineering (2022 - 2026 expected)</p>
+            <h2>Skills</h2>
+            <p> - C++               - Mathematics</p>
+            <p> - Java              - Visual Studio IDE</p>
+            <p> - Python            - </p>
+            <p> - Data Structures   - HTML</p>
+            <p> - Algorithms        - CSS</p>
+            <h2>About Me</h2>
+            <p>I am a junior at Chapman University and I am expecting to graduate</p>
+            <p>in spring 2026. I am majoring in software engineering and minoring</p>
+            <p>in business. Some of my hobbies are working out, playing/watching sports,</p>
+            <p>playing video games, hanging out with friends, watching tv with my girlfriend,</p>
+            <p>and trying new things (espcecially food!).</p>
+            <div class="download-section">
+                <a href="Resume - Google Docs.pdf" target="_blank" class="download-btn">Download Resume</a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="projects" class="projects">
+        <p class="title">Projects</p>
+        <img src="Student Faculty DB.png" class="Student-Faculty-DB" alt="Student Faculty DB">
+        <img src="SpeakerView .png" class="SpeakerView" alt="Speaker View">
+        <a class="stud-fac-info" data-modal="studFacModal">Student Faculty Database</a><a class="speakerview-info" data-modal="speakerviewModal">Speaker View</a>
+        <img src="ERS Project.png" class="ERS-Project" alt="ERS Project">
+        <img src="RobberLang Translator.png" class="RobberLang-Translator" alt="Robber Lang Translator">
+        <a class="ers-info" data-modal="ersModal">ERS Game</a><a class="robber-info" data-modal="robberModal">Robber Language Translator</a>
+    </div>
+
+        <div id="studFacModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Student Faculty Database</h2>
+                <p>I made this project in my data strucutres and algorithms class using C++.</p>
+                <p>It uses a templated lazily balanced binary search tree made from scratch.</p>
+                <p>It is capable of storing a student's ID number, name, year, major, and advisor ID.</p>
+                <p>It is also capable of storing a faculty member's ID number, name, position, department, </p>
+                <p>and advisee ID number.</p>
+                <h2>When ran the following options are provided:</h2>
+                <p>1. Print all students and their information</p>
+                <p>2. Print all students and their information</p>  
+                <p>3. Find and display student information given a student ID</p>
+                <p>4. Find and display faculty information given a faculty ID</p>
+                <p>5. Add a new student</p>
+                <p>6. Delete a student given their ID number</p>
+                <p>7. Add a new faculty member</p>
+                <p>8. Delete a faculty member given their ID number</p>
+                <p>9. Change a students advisor given the student ID and new faculty ID</p>
+                <p>10. Change a faculty advisee given the faculty ID number and new student ID</p>
+                <p>11. Exit</p>
+                <p>**For project code click below**</p>
+                <div class="download-section">
+                    <a href="https://github.com/AndrewEppich/Personal-Portfolio/tree/main/School%20Projects/CPSC%20350/Student%20Faculty%20Database" target="_blank" class="download-btn">View On Github</a>
+                </div>
+
+
+            </div>
+        </div>
+    
+        <div id="speakerviewModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Speaker View Project</h2>
+                <p>I made this project in my data structures and algorithms class using C++.</p>
+                <p>This project used a stack to make sure every person in a meeting is able to </p>
+                <p>see the speaker. It uses a file processor to read every persons height.</p>
+                <p>Next it makes a grid using pointers. It then adds the heights of the people</p>
+                <p>to a stack which then is added to the grid displaying the psoition of each person, </p>
+                <p>their height, and how many people are able to see the speaker.</p>
+                <p>**For project code click below**</p>
+                <div class="download-section">
+                    <a href="https://github.com/AndrewEppich/Personal-Portfolio/tree/main/School%20Projects/CPSC%20350/Speaker%20View" target="_blank" class="download-btn">View On Github</a>
+                </div>
+            </div>
+        </div>
+    
+        <div id="ersModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>ERS Game Project</h2>
+                <p>I made this project in my object oriented programming class.</p>
+                <p>It is coded in java and uses classes to define cards, the deck, the player,</p>
+                <p>the dealer, and the game. The player is a very simple AI that prefers to slap the </p>
+                <p>deck only on certain patterns. The game continues to play out with one player playing</p>
+                <p>against another player until one is the winner. This project demonstrates important</p>
+                <p>aspects of object oriented programming such as encapsulation and abstraction</p>
+                <p>**For project code click below**</p>
+                <div class="download-section">
+                    <a href="https://github.com/AndrewEppich/Personal-Portfolio/tree/main/School%20Projects/CPSC%20231/ERS%20Game" target="_blank" class="download-btn">View On Github</a>
+                </div>
+            </div>
+        </div>
+    
+        <div id="robberModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Robber Language Translator</h2>
+                <p>I made this project in my data structures and algorithms class using C++.</p>
+                <p>it uses a file processor to read text from an input file. Then it</p>
+                <p>translates the text into the robber language and outputs the translation</p>
+                <p>to an html page.</p>
+                <p>**For project code click below**</p>
+                <div class="download-section">
+                    <a href="https://github.com/AndrewEppich/Personal-Portfolio/tree/main/School%20Projects/CPSC%20350/Robber%20Language%20Translator" target="_blank" class="download-btn">View On Github</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="contact" class="contact-section">
+            <div class="contact-content">
+                <h2>Contact Information</h2>
+            <p>Personal Email:          Andrew37745@gmail.com</p></p>
+            <p>School Email:            eppich@chapman.edu</p></p>
+            <p>Cell Phone:              (978) 460-9101</p></p>
+            <div class="contact-socials">
+                <a href="https://www.linkedin.com/in/andrew-eppich-517229292" class="bubble social" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AndrewEppich" class="bubble social" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/eppich.19" class="bubble social" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="foot">
+        <footer class="footer">
+            <div class="footer-bubble-container">
+                <a href="https://www.linkedin.com/in/andrew-eppich-517229292" class="bubble social" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AndrewEppich" class="bubble social" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/eppich.19" class="bubble social" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:Andrew37745@gmail.com" class="bubble social" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="bubble social" onclick="scrollToTop()">↑</a>
+            </div>
+        </footer>
+    </div>
+    
+
+</body>
+</html>
