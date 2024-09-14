@@ -38,7 +38,7 @@ header {
 
 .andrew {
     margin-right: 500px;
-    padding-right: 600px;
+    padding-right: 800px;
     font-size: 25px;
     color: #160c26;
     justify-content: left;
@@ -252,7 +252,7 @@ header {
     font-size: 55px;
     font-family: Monaco, monospace;
     color:#ffffff;
-    padding-left: 520px;
+    padding-left: 620px;
 }
 
 .stud-fac-info {
@@ -269,9 +269,9 @@ header {
     font-size: 30px;
     font-family: Monaco, monospace;
     color:#ffffff;
-    left: 1515px;
+    left: 1300px;
     position: absolute;
-    bottom: -430px;
+    bottom: -410px;
     cursor: pointer;
 }
 
@@ -279,9 +279,9 @@ header {
     font-size: 30px;
     font-family: Monaco, monospace;
     color:#ffffff;
-    left: 725px;
+    left: 625px;
     position: absolute;
-    bottom: -890px;
+    bottom: -830px;
     cursor: pointer;
 }
 
@@ -289,9 +289,9 @@ header {
     font-size: 30px;
     font-family: Monaco, monospace;
     color:#ffffff;
-    left: 1255px;
+    left: 1055px;
     position: absolute;
-    bottom: -890px;
+    bottom: -830px;
     cursor: pointer;
 }
 
