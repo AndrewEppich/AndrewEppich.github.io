@@ -1,7 +1,673 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew Eppich — Software Engineer</title>
+  <meta name="description" content="Andrew Eppich is a software engineer focused on backend systems, cloud infrastructure, CI/CD, and production SaaS.">
+  <meta name="author" content="Andrew Eppich">
+  <meta name="theme-color" content="#101318">
+  <link rel="canonical" href="https://andreweppich.github.io/">
+  <meta property="og:title" content="Andrew Eppich — Software Engineer">
+  <meta property="og:description" content="Backend systems, cloud infrastructure, CI/CD, and production SaaS.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://andreweppich.github.io/">
+  <meta property="og:locale" content="en_US">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Andrew Eppich",
+    "jobTitle": "Software Engineer",
+    "url": "https://andreweppich.github.io/",
+    "email": "eppich@chapman.edu",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Thousand Oaks",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Chapman University"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/andrew-eppich-517229292",
+      "https://github.com/AndrewEppich"
+    ]
+  }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell site-bar">
+      <a class="brand" href="#top">Andrew Eppich</a>
+      <details class="nav-menu">
+        <summary>
+          <span class="menu-open-label">Menu</span>
+          <span class="menu-close-label">Close</span>
+        </summary>
+        <nav aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="resume/Andrew_Eppich_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+          </ul>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero__grid">
+        <div class="hero__copy">
+          <p class="kicker">Software Engineer</p>
+          <h1 id="hero-title">Andrew Eppich</h1>
+          <p class="hero__statement">I build reliable systems, cloud infrastructure, and scalable applications.</p>
+          <p>I work across the service and the platform it runs on: production backends, AWS infrastructure, and the pipelines that take a change through testing into deployment.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#projects">Explore Projects</a>
+            <a class="button button--secondary" href="resume/Andrew_Eppich_Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume<span class="visually-hidden"> (opens in a new tab)</span></a>
+          </div>
+          <ul class="inline-links">
+            <li><a href="https://github.com/AndrewEppich" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="https://www.linkedin.com/in/andrew-eppich-517229292" target="_blank" rel="noopener noreferrer">LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+          </ul>
+        </div>
+
+        <aside class="focus" aria-label="Engineering focus">
+          <p class="kicker">Focus</p>
+          <ol class="focus__list">
+            <li>
+              <span class="focus__index">01</span>
+              <div>
+                <strong>Production SaaS</strong>
+                <p>Services on AWS, from the API and web app through authentication, billing, and document pipelines.</p>
+              </div>
+            </li>
+            <li>
+              <span class="focus__index">02</span>
+              <div>
+                <strong>Infrastructure</strong>
+                <p>Containers, Kubernetes, networking, and infrastructure defined in code.</p>
+              </div>
+            </li>
+            <li>
+              <span class="focus__index">03</span>
+              <div>
+                <strong>Delivery</strong>
+                <p>CI/CD and GitOps, with monitoring so production behavior is visible.</p>
+              </div>
+            </li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="shell">
+        <header class="section__header">
+          <p class="kicker">About</p>
+          <h2 id="about-title">Software that stays understandable in production.</h2>
+        </header>
+        <div class="about__grid">
+          <div class="about__copy">
+            <p>I studied software engineering at Chapman University from 2022 to 2026, with a minor in business administration. The work I want is the work I have already been doing: backend services, cloud infrastructure, and the automation around a production release.</p>
+            <p>I care about systems another engineer can operate. That means a clear service boundary, infrastructure in code, checks before deployment, and enough visibility to know when production is actually healthy.</p>
+          </div>
+          <div>
+            <img class="portrait" src="assets/images/portrait.jpg" width="160" height="160" alt="Portrait of Andrew Eppich">
+            <dl class="facts">
+              <div>
+                <dt>Education</dt>
+                <dd>B.S. Software Engineering<br>Chapman University, 2022–2026</dd>
+              </div>
+              <div>
+                <dt>Minor</dt>
+                <dd>Business Administration</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>Backend systems, cloud infrastructure, CI/CD, and reliability</dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd>Thousand Oaks, California</dd>
+              </div>
+              <div>
+                <dt>Coursework</dt>
+                <dd>Data structures, operating systems, software design, requirements and testing</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section" aria-labelledby="experience-title">
+      <div class="shell">
+        <header class="section__header">
+          <p class="kicker">Experience</p>
+          <h2 id="experience-title">Production work.</h2>
+          <p class="lede">Founding engineering at Dealsight AI, and a software engineering internship at Dry Scientific.</p>
+        </header>
+        <div class="timeline">
+          <article class="role">
+            <p class="role__when">
+              <time datetime="2026-04">April 2026</time>
+              –
+              <time datetime="2026-08">August 2026</time>
+            </p>
+            <div class="role__body">
+              <h3 class="role__title">Founder &amp; Software Engineer</h3>
+              <p class="role__org">Dealsight AI</p>
+              <p>Designed and operated a production SaaS platform: a Next.js application in front of a containerized FastAPI service on AWS ECS Fargate. The scope included private networking, CI/CD with deployment checks, and the operational work of reliability, cost, and troubleshooting.</p>
+              <p>The product analyzed virtual data rooms. I built the path from ingestion, parsing, and OCR through chunking, vector search, and analysis, along with authentication, access control, audit logging, and billing.</p>
+            </div>
+          </article>
+          <article class="role">
+            <p class="role__when">
+              <time datetime="2025-06">June 2025</time>
+              –
+              <time datetime="2025-08">August 2025</time>
+            </p>
+            <div class="role__body">
+              <h3 class="role__title">Software Engineering Intern</h3>
+              <p class="role__org">Dry Scientific Inc.</p>
+              <p>Built GitLab CI/CD pipelines that created Ubuntu-based Docker images and published them to Nexus. Automated MySQL and PostgreSQL setup so database tests ran against a consistent container environment.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="shell">
+        <header class="section__header">
+          <p class="kicker">Projects</p>
+          <h2 id="projects-title">Selected engineering work.</h2>
+          <p class="lede">Production SaaS, infrastructure automation, and full-stack applications. University systems projects follow.</p>
+        </header>
+
+        <!--
+          To add a project, duplicate an <article class="project"> and replace the text.
+          Delete the whole article to remove one. Optional pieces, omit the element if unused:
+          project__role, project__media, highlights, project__links.
+          Images belong in assets/projects/. Instructions are in README.md.
+        -->
+        <div class="project-list">
+          <article class="project">
+            <div class="project__content">
+              <div class="project__top">
+                <div>
+                  <p class="project__role">Founder &amp; Software Engineer</p>
+                  <h3 class="project__title">Dealsight AI</h3>
+                </div>
+                <p class="project__dates"><time datetime="2026-04">April 2026</time> – <time datetime="2026-08">August 2026</time></p>
+              </div>
+              <p class="project__summary">Architected a production M&amp;A due diligence platform: Next.js on Vercel, FastAPI and Celery on AWS ECS Fargate, and a retrieval pipeline for financial and legal documents.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li>
+                <li>TypeScript</li>
+                <li>FastAPI</li>
+                <li>Celery</li>
+                <li>Next.js</li>
+                <li>PostgreSQL</li>
+                <li>Redis</li>
+                <li>AWS ECS Fargate</li>
+                <li>Pinecone</li>
+                <li>Docker</li>
+                <li>GitHub Actions</li>
+              </ul>
+              <ul class="highlights">
+                <li>Split the system into a Next.js app, a FastAPI service, and Celery workers, with Redis queues for document jobs and report generation.</li>
+                <li>Deployed the API and workers on ECS Fargate, backed by RDS PostgreSQL, ElastiCache Redis, S3, and Secrets Manager, with the frontend on Vercel.</li>
+                <li>Built ingestion and retrieval across seven due diligence workstreams, using local parsing, Tesseract OCR, OpenAI embeddings in Pinecone, and Claude for cited analysis.</li>
+                <li>Automated CI with GitHub Actions: about 455 pytest tests, an 85% backend coverage threshold, mypy, Bandit, and image publishing to ECR.</li>
+                <li>Implemented Clerk authentication, organization-scoped data isolation, private S3 storage, and Stripe billing.</li>
+              </ul>
+            </div>
+            <div class="project__media">
+              <figure class="diagram">
+                <figcaption>System overview</figcaption>
+                <div class="diagram__flow">
+                  <div class="diagram__node">
+                    <span>Frontend</span>
+                    <strong>Next.js</strong>
+                    <em>Vercel</em>
+                  </div>
+                  <div class="diagram__node">
+                    <span>API</span>
+                    <strong>FastAPI</strong>
+                    <em>ECS Fargate</em>
+                  </div>
+                  <div class="diagram__node">
+                    <span>Workers</span>
+                    <strong>Celery</strong>
+                    <em>Redis · ElastiCache</em>
+                  </div>
+                  <div class="diagram__split">
+                    <div class="diagram__node"><strong>PostgreSQL</strong></div>
+                    <div class="diagram__node"><strong>S3</strong></div>
+                    <div class="diagram__node"><strong>Pinecone</strong></div>
+                  </div>
+                  <div class="diagram__node">
+                    <span>Delivery</span>
+                    <strong>GitHub Actions</strong>
+                    <em>pytest · ECR · ECS</em>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__content">
+              <div class="project__top">
+                <div>
+                  <p class="project__role">Personal project</p>
+                  <h3 class="project__title">Home Lab Infrastructure &amp; DevOps</h3>
+                </div>
+                <p class="project__dates"><time datetime="2026-09">September 2026</time> – <time datetime="2026-10">October 2026</time></p>
+              </div>
+              <p class="project__summary">Built a self-hosted platform on Ubuntu that provisions infrastructure with Terraform, configures hosts with Ansible, and delivers containers to Kubernetes through Jenkins and Argo CD.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Ubuntu Linux</li>
+                <li>Kubernetes</li>
+                <li>Terraform</li>
+                <li>Ansible</li>
+                <li>Jenkins</li>
+                <li>Argo CD</li>
+                <li>Docker</li>
+                <li>Prometheus</li>
+                <li>Grafana</li>
+              </ul>
+              <ul class="highlights">
+                <li>Provisioned hosts with Terraform and configured Ubuntu with Ansible, including packages, services, SSH keys, and firewall rules.</li>
+                <li>Built Jenkins pipelines that test changes, build Docker images, and publish versioned artifacts.</li>
+                <li>Used Argo CD to sync Git-managed configuration into the cluster and detect drift.</li>
+                <li>Operated Kubernetes workloads with deployments, services, secrets, storage, health probes, scaling, and RBAC.</li>
+                <li>Collected Prometheus metrics and built Grafana dashboards for cluster health, resource use, and service availability.</li>
+              </ul>
+            </div>
+            <div class="project__media">
+              <figure class="diagram">
+                <figcaption>System overview</figcaption>
+                <div class="diagram__flow">
+                  <div class="diagram__node">
+                    <span>Provision</span>
+                    <strong>Terraform</strong>
+                    <em>Infrastructure as code</em>
+                  </div>
+                  <div class="diagram__node">
+                    <span>Configure</span>
+                    <strong>Ansible</strong>
+                    <em>Ubuntu · SSH · firewall</em>
+                  </div>
+                  <div class="diagram__node">
+                    <span>Run</span>
+                    <strong>Kubernetes</strong>
+                    <em>Docker · workloads</em>
+                  </div>
+                  <div class="diagram__split">
+                    <div class="diagram__node">
+                      <span>Build</span>
+                      <strong>Jenkins</strong>
+                    </div>
+                    <div class="diagram__node">
+                      <span>Sync</span>
+                      <strong>Argo CD</strong>
+                    </div>
+                  </div>
+                  <div class="diagram__node">
+                    <span>Observe</span>
+                    <strong>Prometheus</strong>
+                    <em>Grafana dashboards</em>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__content">
+              <div class="project__top">
+                <div>
+                  <p class="project__role">Full-stack application</p>
+                  <h3 class="project__title">Receipt Management System</h3>
+                </div>
+                <p class="project__dates"><time datetime="2024-12">December 2024</time> – <time datetime="2025-05">May 2025</time></p>
+              </div>
+              <p class="project__summary">Built a receipt manager with a React interface and an ASP.NET Core API, using a layered design, MySQL, and OCR for receipt images.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>C#</li>
+                <li>ASP.NET Core</li>
+                <li>React</li>
+                <li>MySQL</li>
+                <li>Entity Framework Core</li>
+                <li>Google Cloud Vision</li>
+              </ul>
+              <ul class="highlights">
+                <li>Separated controllers, business logic, and data access, and connected them with dependency injection.</li>
+                <li>Stored receipts in MySQL through Entity Framework Core.</li>
+                <li>Extracted text from receipt images with the Google Cloud Vision API.</li>
+                <li>Applied Singleton, Observer, and Strategy for database setup, update logging, and list or grid views.</li>
+              </ul>
+            </div>
+            <div class="project__media">
+              <figure class="diagram">
+                <figcaption>System overview</figcaption>
+                <div class="diagram__flow">
+                  <div class="diagram__node">
+                    <span>Interface</span>
+                    <strong>React</strong>
+                  </div>
+                  <div class="diagram__node">
+                    <span>API</span>
+                    <strong>ASP.NET Core</strong>
+                    <em>C# · layered REST</em>
+                  </div>
+                  <div class="diagram__split">
+                    <div class="diagram__node"><strong>MySQL</strong></div>
+                    <div class="diagram__node"><strong>Cloud Vision</strong></div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__content">
+              <div class="project__top">
+                <div>
+                  <h3 class="project__title">Workout Tracking &amp; Diet Application</h3>
+                </div>
+                <p class="project__dates"><time datetime="2024-12">December 2024</time> – <time datetime="2025-05">May 2025</time></p>
+              </div>
+              <p class="project__summary">Developed a backend-driven workout and nutrition tracker, then automated its path to AWS with containers and infrastructure as code.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li>
+                <li>Django</li>
+                <li>AWS</li>
+                <li>Pulumi</li>
+                <li>Docker</li>
+                <li>GitHub Actions</li>
+                <li>REST APIs</li>
+                <li>Amazon Cognito</li>
+                <li>Amazon S3</li>
+              </ul>
+              <ul class="highlights">
+                <li>Built the Django backend and integrated Amazon Cognito for authentication and Amazon S3 for storage.</li>
+                <li>Automated deployment with Docker, GitHub Actions, Pulumi, and AWS ECS.</li>
+                <li>Reduced deployment time by 40% and improved API response time by 20% with caching.</li>
+              </ul>
+            </div>
+            <div class="project__media">
+              <figure class="diagram">
+                <figcaption>System overview</figcaption>
+                <div class="diagram__flow">
+                  <div class="diagram__node">
+                    <span>API</span>
+                    <strong>Django</strong>
+                    <em>Python · REST</em>
+                  </div>
+                  <div class="diagram__split">
+                    <div class="diagram__node"><strong>Cognito</strong></div>
+                    <div class="diagram__node"><strong>S3</strong></div>
+                  </div>
+                  <div class="diagram__node">
+                    <span>Runtime</span>
+                    <strong>Docker on ECS</strong>
+                    <em>Containerized service</em>
+                  </div>
+                  <div class="diagram__node">
+                    <span>Delivery</span>
+                    <strong>GitHub Actions</strong>
+                    <em>Pulumi</em>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </article>
+        </div>
+
+        <div class="subsection">
+          <p class="kicker">University projects</p>
+          <p>Coursework in systems programming, concurrency, and data structures.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project">
+            <div class="project__content">
+              <div class="project__top">
+                <div>
+                  <p class="project__role">Coursework</p>
+                  <h3 class="project__title">Threaded Monte Carlo Simulation</h3>
+                </div>
+                <p class="project__dates"><time datetime="2024-10">October 2024</time></p>
+              </div>
+              <p class="project__summary">Built a threaded Monte Carlo simulation in C with POSIX threads, structured to run through one billion sample points.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>C</li>
+                <li>POSIX Threads</li>
+                <li>Linux</li>
+              </ul>
+              <ul class="highlights">
+                <li>Created worker threads with the POSIX threads library.</li>
+                <li>Ran the simulation at a scale of one billion points.</li>
+              </ul>
+            </div>
+            <div class="project__media">
+              <div class="plate">
+                <p class="plate__kicker">Concurrency</p>
+                <p class="plate__title">C</p>
+                <p class="plate__meta">pthreads · 1 billion points</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__content">
+              <div class="project__top">
+                <div>
+                  <p class="project__role">Coursework</p>
+                  <h3 class="project__title">Command-Line Shell</h3>
+                </div>
+                <p class="project__dates"><time datetime="2024-09">September 2024</time></p>
+              </div>
+              <p class="project__summary">Built a command-line shell in C for Linux and Unix. The parent process forks a child, and the child runs the requested program.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>C</li>
+                <li>Linux</li>
+                <li>Unix</li>
+                <li>POSIX</li>
+              </ul>
+              <ul class="highlights">
+                <li>Used fork() to separate the shell from each command.</li>
+                <li>Executed user arguments in the child process with execvp().</li>
+              </ul>
+            </div>
+            <div class="project__media">
+              <div class="plate">
+                <p class="plate__kicker">Systems</p>
+                <p class="plate__title">C</p>
+                <p class="plate__meta">fork · execvp</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__content">
+              <div class="project__top">
+                <div>
+                  <p class="project__role">Coursework</p>
+                  <h3 class="project__title">Student-Faculty Database</h3>
+                </div>
+                <p class="project__dates"><time datetime="2024-05">May 2024</time></p>
+              </div>
+              <p class="project__summary">Implemented a student and faculty database in C++ on a lazily balanced binary search tree, with search, insert, delete, and advisor changes.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>C++</li>
+                <li>Data Structures</li>
+                <li>Binary Search Trees</li>
+              </ul>
+              <ul class="highlights">
+                <li>Stored student and faculty records and looked them up by ID.</li>
+                <li>Supported adding, deleting, and reassigning advisors and advisees.</li>
+              </ul>
+              <ul class="project__links">
+                <li><a href="https://github.com/AndrewEppich/Personal-Portfolio/tree/main/School%20Projects/CPSC%20350/Student%20Faculty%20Database" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+              </ul>
+            </div>
+            <div class="project__media">
+              <div class="plate">
+                <p class="plate__kicker">Data structures</p>
+                <p class="plate__title">C++</p>
+                <p class="plate__meta">binary search tree</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="more-work">
+          <p class="kicker">Additional coursework</p>
+          <ul>
+            <li>
+              <span>Lark Grammar Calculator</span>
+              <span>Python · September 2024</span>
+            </li>
+            <li>
+              <a href="https://github.com/AndrewEppich/Personal-Portfolio/tree/main/School%20Projects/CPSC%20350/Speaker%20View" target="_blank" rel="noopener noreferrer">Speaker View<span class="visually-hidden"> (opens in a new tab)</span></a>
+              <span>C++ · March 2024</span>
+            </li>
+            <li>
+              <a href="https://github.com/AndrewEppich/Personal-Portfolio/tree/main/School%20Projects/CPSC%20350/Robber%20Language%20Translator" target="_blank" rel="noopener noreferrer">Robber Language Translator<span class="visually-hidden"> (opens in a new tab)</span></a>
+              <span>C++ · February 2024</span>
+            </li>
+            <li>
+              <a href="https://github.com/AndrewEppich/Personal-Portfolio/tree/main/School%20Projects/CPSC%20231/ERS%20Game" target="_blank" rel="noopener noreferrer">ERS Card Game<span class="visually-hidden"> (opens in a new tab)</span></a>
+              <span>Java · November 2023</span>
+            </li>
+          </ul>
+          <p class="more-work__note"><a href="https://github.com/AndrewEppich/Coding-Projects" target="_blank" rel="noopener noreferrer">Coding Projects<span class="visually-hidden"> (opens in a new tab)</span></a> collects more repositories on GitHub.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="shell">
+        <header class="section__header">
+          <p class="kicker">Skills</p>
+          <h2 id="skills-title">Tools used to build, ship, and operate software.</h2>
+        </header>
+        <div class="skills">
+          <section class="skill-group" aria-labelledby="skill-languages">
+            <h3 id="skill-languages">Languages</h3>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>C#</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-backend">
+            <h3 id="skill-backend">Backend</h3>
+            <ul class="skill-list">
+              <li>FastAPI</li>
+              <li>Django</li>
+              <li>Flask</li>
+              <li>.NET</li>
+              <li>REST APIs</li>
+            </ul>
+            <p class="skill-note">Testing: PyTest, JUnit, xUnit.</p>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-cloud">
+            <h3 id="skill-cloud">Cloud &amp; infrastructure</h3>
+            <ul class="skill-list">
+              <li>AWS</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>Terraform</li>
+              <li>Ansible</li>
+              <li>Pulumi</li>
+              <li>Linux</li>
+            </ul>
+            <p class="skill-note">AWS: EC2, ECS, ECR, S3, Cognito, DynamoDB, CloudWatch, VPC, Route 53, IAM.</p>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-cicd">
+            <h3 id="skill-cicd">CI/CD &amp; DevOps</h3>
+            <ul class="skill-list">
+              <li>Git</li>
+              <li>GitHub Actions</li>
+              <li>GitLab CI/CD</li>
+              <li>Jenkins</li>
+              <li>Argo CD</li>
+              <li>Nexus</li>
+              <li>Vault</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-observe">
+            <h3 id="skill-observe">Observability</h3>
+            <ul class="skill-list">
+              <li>Prometheus</li>
+              <li>Grafana</li>
+              <li>AWS CloudWatch</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-data">
+            <h3 id="skill-data">Databases &amp; data</h3>
+            <ul class="skill-list">
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>SQL</li>
+              <li>DynamoDB</li>
+              <li>Pinecone</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="shell contact">
+        <div>
+          <p class="kicker">Contact</p>
+          <h2 id="contact-title">Open to backend, cloud, and infrastructure roles.</h2>
+          <p class="lede">Email is the most direct way to reach me.</p>
+        </div>
+        <div>
+          <a class="contact__email" href="mailto:eppich@chapman.edu">eppich@chapman.edu</a>
+          <ul class="inline-links">
+            <li><a href="https://www.linkedin.com/in/andrew-eppich-517229292" target="_blank" rel="noopener noreferrer">LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/AndrewEppich" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="resume/Andrew_Eppich_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-bar">
+      <p>© <time datetime="2026">2026</time> Andrew Eppich</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/nav.js" defer></script>
 </body>
 </html>
